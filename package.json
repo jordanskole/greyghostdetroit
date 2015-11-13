@@ -1,0 +1,28 @@
+{
+  "name": "greyghostdetroit",
+  "version": "1.0.0",
+  "description": "A landing page for the Grey Ghost bar.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanskole/greyghostdetroit.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "jordanskole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanskole/greyghostdetroit/issues"
+  },
+  "homepage": "https://github.com/jordanskole/greyghostdetroit",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
