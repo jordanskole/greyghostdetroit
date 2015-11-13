@@ -23,3 +23,12 @@ gulp.task('serve', function() {
     gulp.watch(sources)
       .on("change", browserSync.reload);
 });
+
+/**
+ *  So cool.
+ *  Push everything up to gh-pages
+ */
+gulp.task('deploy', function() {
+  return gulp.src('**/*')
+    .pipe(ghPages({push: true}));
+});
