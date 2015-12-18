@@ -18,7 +18,7 @@ gulp.task('serve', function() {
         }
     });
 
-    var sources = ["*.html", "./js/*.js", "./css/**.css"]
+    var sources = ["**/*.html", "*.html", "./js/*.js", "./css/**.css"]
 
     gulp.watch(sources)
       .on("change", browserSync.reload);
