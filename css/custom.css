@@ -1,1 +1,49 @@
 /*!---------- PLACE YOUR CUSTOM STYLES AND OVERRIDES HERE ----------*/
+
+.pad-10 {
+  padding: 10px;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+.pad-30 {
+  padding: 30px;
+}
+
+.pad-40 {
+  padding: 40px;
+}
+
+.pad-60 {
+  padding: 60px;
+}
+
+.pad-100 {
+  padding: 100px;
+}
+
+.pad-top-10 {
+  padding-top: 10px;
+}
+
+.pad-top-20 {
+  padding-top: 20px;
+}
+
+.pad-top-30 {
+  padding-top: 30px;
+}
+
+.pad-top-40 {
+  padding-top: 40px;
+}
+
+.pad-top-60 {
+  padding-top: 60px;
+}
+
+.pad-100 {
+  padding-top: 100px;
+}
